@@ -1,0 +1,3 @@
+@function px2rem($px){
+	@return $px / 37.5 * 1rem; /*定义设计图的宽度 375px*/
+}

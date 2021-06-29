@@ -1,0 +1,30 @@
+@import "px2rem";
+
+.box {
+    width: px2rem(100px);
+    height: px2rem(100px);
+    background: red;
+
+}
+
+span {
+    font-size: px2rem(16px);
+}
+
+
+.box {
+    -webkit-transition: opacity 5s;
+    opacity: 1;
+
+    &:hover {
+        opacity: 0;
+    }
+
+    // display: flex;
+    // p{
+    // 	flex: 1;
+    // }
+    // p:last-child{
+    // 	flex: 2;
+    // }
+}
